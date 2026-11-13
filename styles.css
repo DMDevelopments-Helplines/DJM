@@ -14,3 +14,8 @@
 .approach-grid h3{font-family:Manrope,Arial,sans-serif;font-size:20px;letter-spacing:-.035em;margin:0 0 13px;color:#1c3a4a}
 .approach-grid article p{font-size:14px;line-height:1.8;color:#65717d;margin:0}
 @media(max-width:800px){.approach-grid{grid-template-columns:1fr;gap:14px}.approach-grid article{min-height:0;padding:28px}.approach-heading{margin-bottom:30px}}
+
+/* Statutory company information */
+.footer-row .company-disclosure{display:block;max-width:470px;text-align:right;line-height:1.65;font-size:11px;color:#b9c5cb}
+.footer-row .registered-address{display:block}
+@media(max-width:800px){.footer-row .company-disclosure{text-align:left;max-width:none}}
